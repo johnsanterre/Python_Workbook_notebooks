@@ -10,6 +10,9 @@ response = urllib.request.urlopen(request)
 data = response.read().decode('utf-8')
 
 # How many letters are there
+# How many spaces are there
+# How many special characters are there
+
 # How many words are there
 # What are the ten most common words and how many times are they used?
 # Plot a historgrapm of the top 100 words
