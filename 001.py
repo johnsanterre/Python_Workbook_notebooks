@@ -1,5 +1,8 @@
 # Prepare my_utils.py file
 
+from collections import Counter # Super useful
+
+
 # download data from project gutenberg
 import urllib.request
 request = urllib.request.Request('https://www.gutenberg.org/files/219/219-0.txt')
