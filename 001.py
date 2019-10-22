@@ -9,6 +9,11 @@ request = urllib.request.Request('https://www.gutenberg.org/files/219/219-0.txt'
 response = urllib.request.urlopen(request)
 data = response.read().decode('utf-8')
 
+# How many Characters are there
+# How many words are there
+# What are the ten most common words and how many times are they used?
+
+
 
 # String Manipulation functions
 
